@@ -1,0 +1,465 @@
+{
+  "uid" : "ba74cfc3724ed155",
+  "name" : "_9renameFolder",
+  "fullName" : "com.flodesk.tests.Tests._9renameFolder",
+  "historyId" : "a02bee9fae1611f47168dacd24608ebf",
+  "time" : {
+    "start" : 1629426576152,
+    "stop" : 1629426582595,
+    "duration" : 6443
+  },
+  "description" : "Rename folder",
+  "descriptionHtml" : "<p>Rename folder</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1629426563084,
+      "stop" : 1629426568682,
+      "duration" : 5598
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "loginSystem",
+    "time" : {
+      "start" : 1629426568683,
+      "stop" : 1629426576150,
+      "duration" : 7467
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login into system",
+      "time" : {
+        "start" : 1629426568683,
+        "stop" : 1629426576150,
+        "duration" : 7467
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Input username: huy+qa@flodesk.com",
+        "time" : {
+          "start" : 1629426568683,
+          "stop" : 1629426568811,
+          "duration" : 128
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "huy+qa@flodesk.com"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Input password: Huy@Flodesk*",
+        "time" : {
+          "start" : 1629426568811,
+          "stop" : 1629426568892,
+          "duration" : 81
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "Huy@Flodesk*"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click login button",
+        "time" : {
+          "start" : 1629426568892,
+          "stop" : 1629426574639,
+          "duration" : 5747
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Check email page loaded",
+        "time" : {
+          "start" : 1629426574640,
+          "stop" : 1629426576150,
+          "duration" : 1510
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "com.flodesk.SimpleTest.model.User@5e7fc012"
+      } ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setUpDriverExecutable",
+    "time" : {
+      "start" : 1629426343650,
+      "stop" : 1629426344198,
+      "duration" : 548
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Rename folder",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to folder page",
+      "time" : {
+        "start" : 1629426576152,
+        "stop" : 1629426578622,
+        "duration" : 2470
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on folder tab",
+        "time" : {
+          "start" : 1629426576152,
+          "stop" : 1629426578589,
+          "duration" : 2437
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Rename folder Folder Test3 to Folder Test4",
+      "time" : {
+        "start" : 1629426578622,
+        "stop" : 1629426579747,
+        "duration" : 1125
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on ... of folder name: Folder Test3",
+        "time" : {
+          "start" : 1629426578622,
+          "stop" : 1629426579352,
+          "duration" : 730
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "folderName",
+          "value" : "Folder Test3"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click rename option",
+        "time" : {
+          "start" : 1629426579352,
+          "stop" : 1629426579494,
+          "duration" : 142
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Input folder name: Folder Test4",
+        "time" : {
+          "start" : 1629426579494,
+          "stop" : 1629426579747,
+          "duration" : 253
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "fName",
+          "value" : "Folder Test4"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "currentName",
+        "value" : "Folder Test3"
+      }, {
+        "name" : "newName",
+        "value" : "Folder Test4"
+      } ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Go to My Email page",
+      "time" : {
+        "start" : 1629426579748,
+        "stop" : 1629426580432,
+        "duration" : 684
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on my email tab",
+        "time" : {
+          "start" : 1629426579748,
+          "stop" : 1629426580432,
+          "duration" : 684
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Go to folder page",
+      "time" : {
+        "start" : 1629426580432,
+        "stop" : 1629426581451,
+        "duration" : 1019
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on folder tab",
+        "time" : {
+          "start" : 1629426580432,
+          "stop" : 1629426581415,
+          "duration" : 983
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify folder Folder Test3 not existed.",
+      "time" : {
+        "start" : 1629426581451,
+        "stop" : 1629426582571,
+        "duration" : 1120
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check folder: Folder Test3 is existed",
+        "time" : {
+          "start" : 1629426581451,
+          "stop" : 1629426582571,
+          "duration" : 1120
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "folderName",
+          "value" : "Folder Test3"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folderName",
+        "value" : "Folder Test3"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify folder Folder Test4 existed.",
+      "time" : {
+        "start" : 1629426582572,
+        "stop" : 1629426582594,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check folder: Folder Test4 is existed",
+        "time" : {
+          "start" : 1629426582572,
+          "stop" : 1629426582594,
+          "duration" : 22
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "folderName",
+          "value" : "Folder Test4"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folderName",
+        "value" : "Folder Test4"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629426582595,
+      "stop" : 1629426582730,
+      "duration" : 135
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.flodesk.tests.Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.flodesk.tests.Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "_9renameFolder"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Demo Folder Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.flodesk.tests.Tests"
+  }, {
+    "name" : "host",
+    "value" : "Nguyens-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "4130@Nguyens-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7b6f5139d3e5d85e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629424568296,
+        "stop" : 1629424573705,
+        "duration" : 5409
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ba74cfc3724ed155.json",
+  "parameterValues" : [ ]
+}

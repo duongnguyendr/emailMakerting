@@ -1,0 +1,428 @@
+{
+  "uid" : "da6422cef9324751",
+  "name" : "_1createNewFolder",
+  "fullName" : "com.flodesk.tests.Tests._1createNewFolder",
+  "historyId" : "eba89d647d60155b0b633a6d3fef2a9d",
+  "time" : {
+    "start" : 1629424357128,
+    "stop" : 1629424361041,
+    "duration" : 3913
+  },
+  "description" : "Create new folder",
+  "descriptionHtml" : "<p>Create new folder</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "loginSystem",
+    "time" : {
+      "start" : 1629424351412,
+      "stop" : 1629424356929,
+      "duration" : 5517
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Login into system",
+      "time" : {
+        "start" : 1629424351446,
+        "stop" : 1629424356929,
+        "duration" : 5483
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Input username: huy+qa@flodesk.com",
+        "time" : {
+          "start" : 1629424351447,
+          "stop" : 1629424351616,
+          "duration" : 169
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "username",
+          "value" : "huy+qa@flodesk.com"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Input password: Huy@Flodesk*",
+        "time" : {
+          "start" : 1629424351617,
+          "stop" : 1629424351700,
+          "duration" : 83
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "password",
+          "value" : "Huy@Flodesk*"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click login button",
+        "time" : {
+          "start" : 1629424351701,
+          "stop" : 1629424356019,
+          "duration" : 4318
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Check email page loaded",
+        "time" : {
+          "start" : 1629424356019,
+          "stop" : 1629424356926,
+          "duration" : 907
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "user",
+        "value" : "com.flodesk.SimpleTest.model.User@65753724"
+      } ],
+      "stepsCount" : 4,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setup",
+    "time" : {
+      "start" : 1629424347249,
+      "stop" : 1629424351333,
+      "duration" : 4084
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setUpDriverExecutable",
+    "time" : {
+      "start" : 1629424346922,
+      "stop" : 1629424347218,
+      "duration" : 296
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "Create new folder",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Go to folder page",
+      "time" : {
+        "start" : 1629424357146,
+        "stop" : 1629424358512,
+        "duration" : 1366
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click on folder tab",
+        "time" : {
+          "start" : 1629424357146,
+          "stop" : 1629424358469,
+          "duration" : 1323
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Create folder with name: Folder Test1",
+      "time" : {
+        "start" : 1629424358512,
+        "stop" : 1629424360988,
+        "duration" : 2476
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Click new folder button",
+        "time" : {
+          "start" : 1629424358512,
+          "stop" : 1629424358616,
+          "duration" : 104
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Verify title of create new folder popup",
+        "time" : {
+          "start" : 1629424358616,
+          "stop" : 1629424358637,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Get title of add email to folder popup",
+          "time" : {
+            "start" : 1629424358616,
+            "stop" : 1629424358636,
+            "duration" : 20
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Input folder name: Folder Test1",
+        "time" : {
+          "start" : 1629424358637,
+          "stop" : 1629424358719,
+          "duration" : 82
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "fName",
+          "value" : "Folder Test1"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click next button",
+        "time" : {
+          "start" : 1629424358719,
+          "stop" : 1629424360894,
+          "duration" : 2175
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "Verify title of Add email to folder popup",
+        "time" : {
+          "start" : 1629424360895,
+          "stop" : 1629424360916,
+          "duration" : 21
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "Get title of Add email to folder popup",
+          "time" : {
+            "start" : 1629424360895,
+            "stop" : 1629424360916,
+            "duration" : 21
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 1,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "Click skip button",
+        "time" : {
+          "start" : 1629424360916,
+          "stop" : 1629424360988,
+          "duration" : 72
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folderName",
+        "value" : "Folder Test1"
+      } ],
+      "stepsCount" : 8,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "Verify folder Folder Test1 existed.",
+      "time" : {
+        "start" : 1629424360989,
+        "stop" : 1629424361038,
+        "duration" : 49
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Check folder: Folder Test1 is existed",
+        "time" : {
+          "start" : 1629424360989,
+          "stop" : 1629424361037,
+          "duration" : 48
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "folderName",
+          "value" : "Folder Test1"
+        } ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "folderName",
+        "value" : "Folder Test1"
+      } ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "tearDown",
+    "time" : {
+      "start" : 1629424361052,
+      "stop" : 1629424361243,
+      "duration" : 191
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.flodesk.tests.Tests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.flodesk.tests.Tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "_1createNewFolder"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Test Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Demo Folder Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.flodesk.tests.Tests"
+  }, {
+    "name" : "host",
+    "value" : "Nguyens-MacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "3396@Nguyens-MacBook-Pro.local.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "da6422cef9324751.json",
+  "parameterValues" : [ ]
+}

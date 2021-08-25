@@ -1,0 +1,139 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "com.flodesk.tests.Tests",
+    "children" : [ {
+      "name" : "_2createNewFolderWithExistedName",
+      "uid" : "2d729d6d705e95e0",
+      "parentUid" : "38d5283bd59a26df5b9cf82d1d868246",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629426370896,
+        "stop" : 1629426375101,
+        "duration" : 4205
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "_3createNewFolderWithEmptyName",
+      "uid" : "36bbf893d1a140d2",
+      "parentUid" : "38d5283bd59a26df5b9cf82d1d868246",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629426386415,
+        "stop" : 1629426389330,
+        "duration" : 2915
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "_4addEmailToFolder",
+      "uid" : "e7295ae8419e36a",
+      "parentUid" : "38d5283bd59a26df5b9cf82d1d868246",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629426398237,
+        "stop" : 1629426408790,
+        "duration" : 10553
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "_5addEmailToFolderByCreateNewFolder",
+      "uid" : "780cee4aff7d8a20",
+      "parentUid" : "38d5283bd59a26df5b9cf82d1d868246",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629426418451,
+        "stop" : 1629426431258,
+        "duration" : 12807
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "_6moveEmailToAnotherFolder",
+      "uid" : "781b6c38d29dc966",
+      "parentUid" : "38d5283bd59a26df5b9cf82d1d868246",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629426442196,
+        "stop" : 1629426487004,
+        "duration" : 44808
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "_7moveEmailToNewFolderByCreateOne",
+      "uid" : "3b64bc2ccbbb65ec",
+      "parentUid" : "38d5283bd59a26df5b9cf82d1d868246",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629426497210,
+        "stop" : 1629426514734,
+        "duration" : 17524
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "_8removeEmailFromFolder",
+      "uid" : "9a7c2fa0f610e3e9",
+      "parentUid" : "38d5283bd59a26df5b9cf82d1d868246",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629426524286,
+        "stop" : 1629426562886,
+        "duration" : 38600
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "_9renameFolder",
+      "uid" : "ba74cfc3724ed155",
+      "parentUid" : "38d5283bd59a26df5b9cf82d1d868246",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629426576152,
+        "stop" : 1629426582595,
+        "duration" : 6443
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "_9zdeleteFolder",
+      "uid" : "edbdfcdbe1112358",
+      "parentUid" : "38d5283bd59a26df5b9cf82d1d868246",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629426592076,
+        "stop" : 1629426597238,
+        "duration" : 5162
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "_1createNewFolder",
+      "uid" : "e7099aa5395b5753",
+      "parentUid" : "38d5283bd59a26df5b9cf82d1d868246",
+      "status" : "failed",
+      "time" : {
+        "start" : 1629426737311,
+        "stop" : 1629426740031,
+        "duration" : 2720
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "com.flodesk.tests.Tests"
+  } ]
+}

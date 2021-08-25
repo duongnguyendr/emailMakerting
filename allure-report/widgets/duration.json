@@ -1,0 +1,101 @@
+[ {
+  "uid" : "780cee4aff7d8a20",
+  "name" : "_5addEmailToFolderByCreateNewFolder",
+  "time" : {
+    "start" : 1629426418451,
+    "stop" : 1629426431258,
+    "duration" : 12807
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba74cfc3724ed155",
+  "name" : "_9renameFolder",
+  "time" : {
+    "start" : 1629426576152,
+    "stop" : 1629426582595,
+    "duration" : 6443
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edbdfcdbe1112358",
+  "name" : "_9zdeleteFolder",
+  "time" : {
+    "start" : 1629426592076,
+    "stop" : 1629426597238,
+    "duration" : 5162
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d729d6d705e95e0",
+  "name" : "_2createNewFolderWithExistedName",
+  "time" : {
+    "start" : 1629426370896,
+    "stop" : 1629426375101,
+    "duration" : 4205
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36bbf893d1a140d2",
+  "name" : "_3createNewFolderWithEmptyName",
+  "time" : {
+    "start" : 1629426386415,
+    "stop" : 1629426389330,
+    "duration" : 2915
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b64bc2ccbbb65ec",
+  "name" : "_7moveEmailToNewFolderByCreateOne",
+  "time" : {
+    "start" : 1629426497210,
+    "stop" : 1629426514734,
+    "duration" : 17524
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7295ae8419e36a",
+  "name" : "_4addEmailToFolder",
+  "time" : {
+    "start" : 1629426398237,
+    "stop" : 1629426408790,
+    "duration" : 10553
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a7c2fa0f610e3e9",
+  "name" : "_8removeEmailFromFolder",
+  "time" : {
+    "start" : 1629426524286,
+    "stop" : 1629426562886,
+    "duration" : 38600
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "781b6c38d29dc966",
+  "name" : "_6moveEmailToAnotherFolder",
+  "time" : {
+    "start" : 1629426442196,
+    "stop" : 1629426487004,
+    "duration" : 44808
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e7099aa5395b5753",
+  "name" : "_1createNewFolder",
+  "time" : {
+    "start" : 1629426737311,
+    "stop" : 1629426740031,
+    "duration" : 2720
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

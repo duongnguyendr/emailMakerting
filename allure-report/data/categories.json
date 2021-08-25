@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Title not match, expected: Name your folder, but actual: . expected:<[Name your folder]> but was:<[]>",
+      "children" : [ {
+        "name" : "_1createNewFolder",
+        "uid" : "e7099aa5395b5753",
+        "parentUid" : "32982c28e0c9e6c7ea4374d57f8900fd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1629426737311,
+          "stop" : 1629426740031,
+          "duration" : 2720
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "32982c28e0c9e6c7ea4374d57f8900fd"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

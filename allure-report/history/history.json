@@ -1,0 +1,193 @@
+{
+  "2256a8c3124cac493b431b19c24efb5e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "36bbf893d1a140d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629426386415,
+        "stop" : 1629426389330,
+        "duration" : 2915
+      }
+    } ]
+  },
+  "f3c71941303a8f895e79d015354101f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "781b6c38d29dc966",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629426442196,
+        "stop" : 1629426487004,
+        "duration" : 44808
+      }
+    } ]
+  },
+  "a02bee9fae1611f47168dacd24608ebf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ba74cfc3724ed155",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629426576152,
+        "stop" : 1629426582595,
+        "duration" : 6443
+      }
+    } ]
+  },
+  "3e6148c1fc3fcf49ddf2d36ccca0959a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "edbdfcdbe1112358",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629426592076,
+        "stop" : 1629426597238,
+        "duration" : 5162
+      }
+    } ]
+  },
+  "9d88f233605177a69767dd8981cb599c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "780cee4aff7d8a20",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629426418451,
+        "stop" : 1629426431258,
+        "duration" : 12807
+      }
+    } ]
+  },
+  "87b7f8c6a7c795997520f302dbb4dd0e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2d729d6d705e95e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629426370896,
+        "stop" : 1629426375101,
+        "duration" : 4205
+      }
+    } ]
+  },
+  "fccead429beaf88d05c8f4f2b8be7df1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3b64bc2ccbbb65ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629426497210,
+        "stop" : 1629426514734,
+        "duration" : 17524
+      }
+    } ]
+  },
+  "eba89d647d60155b0b633a6d3fef2a9d" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e7099aa5395b5753",
+      "status" : "failed",
+      "statusDetails" : "Title not match, expected: Name your folder, but actual: . expected:<[Name your folder]> but was:<[]>",
+      "time" : {
+        "start" : 1629426737311,
+        "stop" : 1629426740031,
+        "duration" : 2720
+      }
+    } ]
+  },
+  "1954521422feafd21e6a18afc81b2444" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9a7c2fa0f610e3e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629426524286,
+        "stop" : 1629426562886,
+        "duration" : 38600
+      }
+    } ]
+  },
+  "c1d67313c2826aa0a7517b2584640050" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e7295ae8419e36a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1629426398237,
+        "stop" : 1629426408790,
+        "duration" : 10553
+      }
+    } ]
+  }
+}

@@ -1,0 +1,12 @@
+com/flodesk/services/EmailService.class
+com/flodesk/pom/AddEmailToFolderModalPage.class
+com/flodesk/services/CreateFolderService.class
+com/flodesk/services/LoginService.class
+com/flodesk/AppTest.class
+com/flodesk/Hooks.class
+com/flodesk/pom/EmailActionsPage.class
+com/flodesk/pom/LoginPage.class
+com/flodesk/pom/FolderDetailsPage.class
+com/flodesk/pom/FolderPage.class
+com/flodesk/tests/Tests.class
+com/flodesk/pom/EmailPage.class
